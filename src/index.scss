@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+#formPage {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #0033cc;
+  border: 12px solid #fff;
+  form {
+    width: 100%;
+    label {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0 0 10px 0;
+    }
+    .form-control {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      border: none;
+      box-shadow: none;
+      width: 100%;
+      margin: 0 0 20px 0;
+      padding: 10px 10px;
+      &::placeholder {
+        color: rgba(0, 0, 0, 0.4);
+      }
+    }
+    .radioBtn {
+      margin: 0 10px 0 0;
+    }
+    .checkBox {
+      margin: 0 10px 0 0;
+    }
+    .submitBtn {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      background-color: #fff;
+      color: #0033cc;
+      width: 100%;
+      padding: 8px 0;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+    }
+  }
+  .rightCard {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+      }
+    }
+  }
+}
+
+#folder {
+  padding: 40px 20px;
+  .search {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    width: 200px;
+    padding: 5px 10px;
+    margin: 10px 0 40px 0;
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: none;
+    outline: none;
+  }
+  .collectionHeading {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .folder {
+    border: 2px solid #eff0f2;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+      background-color: #0033cc12;
+    }
+    .detail {
+      padding: 0 10px;
+      .name {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .property {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        color: #a0a0a0;
+      }
+    }
+    .option {
+      position: absolute;
+      right: 10px;
+      top: 8px;
+    }
+  }
+  .rightHeader {
+    padding: 20px;
+    border-left: 1px solid #ebedf1;
+    border-right: 1px solid #ebedf1;
+    button {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      padding: 8px 30px;
+      box-shadow: none;
+    }
+  }
+  .rightBody {
+    border: 1px solid #ebedf1;
+    min-height: 80vh;
+    padding: 20px;
+    .left {
+      border: 1px solid #ebedf1;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .right {
+      border: 1px solid #ebedf1;
+      padding: 10px;
+      .heading {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .text {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0;
+      }
+    }
+    .heading {
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0;
+      margin: 20px 0 10px 0;
+    }
+    .borderAll {
+      border: 1px solid #ebedf1;
+      padding: 10px;
+      .head {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .borderAll {
+      border: 1px solid #ebedf1;
+      padding: 10px;
+      .text {
+        font-family: "Roboto", sans-serif;
+        font-size: 11px;
+        letter-spacing: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
